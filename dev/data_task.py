@@ -98,7 +98,7 @@ def data_task():
   insert_csv_data()
   query_med_min_max()
   query_updates_per_table()
-  create_tables_and_indexes
+  create_tables_and_indexes()
   data_insertion()
   connection.close()
 
